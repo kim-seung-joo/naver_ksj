@@ -1,0 +1,57 @@
+
+body{
+    margin: 100px;
+    background-color: white;   
+    margin-left: 20px;
+
+}
+.login{
+    width: 300px;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.img{
+    text-align: center;
+    margin-left: 2px;
+}
+
+.text{
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: black;
+    width: 300px;
+}
+.btn{
+    font-size: 14px;
+    width: 325px;
+    color: white;
+    background-color: #2DB400;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.Link{
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+
+}
+.Link a{
+    float: left;
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    
+}
+h5{
+    height: 0px;
+    
+}

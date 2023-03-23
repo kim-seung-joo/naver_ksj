@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="img">
+    <form>
+        <img src="images/naver.jpg"alt="" width="200px" height="85px"  ><!--이미지 폴더에 네이버 이미지를 가져오기-->
+    </div>
+    <div class="login">
+            <input type="text" id="user" class="text"  placeholder="아이디" onkeyup="enableButton()">
+            <input type="password"id="password" class="text" placeholder="비밀번호" onkeyup="enableButton()"><!-- 선언한 함수가 실행되게끔-->
+            <button type="button" id="btn" class='btn' disabled onclick="window.location.href='index.html'"
+            >로그인</button>
+            <h5 id="warning" style="color:red; display:none;">아이디 또는 비밀번호를 입력하세요.</h5>
+		
+            
+        </form>
+        <div class="Link">
+            <a href="index.html" style="text-decoration: none;">비밀번호 찾기</a>
+            <a href="index.html" style="text-decoration: none;">아이디 찾기</a>
+            <a href="signup.html" style="text-decoration: none;">회원가입</a>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="Login.js"></script>
+</body>
+</html>
